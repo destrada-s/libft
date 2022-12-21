@@ -1,36 +1,40 @@
 # libft
 
-**check for alpha **
+**1. check for alpha**
 <br>
 int		ft_isalpha(int c);
 
-**check for digits**
+**2. check for digits**
 <br>
 int		ft_isdigit(int c);
 
-**check for alphanumeric**
+**3. check for alphanumeric**
 <br>
 int		ft_isalnum(int c);
 
-**check for 7 bit ascii(0 - 127) not extended **
+**4. check for 7 bit ascii(0 - 127) not extended**
 <br>
 int		ft_isascii(int c);
 
-**check for printable chars**
+**5. check for printable chars**
 <br>
 int		ft_isprint(int c);
 
-/* function computes the length of the string s */
-size_t	ft_strlen(const char *s);
+**6. function computes the length of the string s**
 <br>
-/*writes len bytes of value c(unsigned char) to string b*/
+size_t	ft_strlen(const char *s);
+
+**7. writes len bytes of value c(unsigned char) to string b**
+<br>
 void	*ft_memset(void *b, int c, size_t len);
 
-/*bzeero writes in string 's' 'n' zeroed bytes*/
-void	ft_bzero(void *s, size_t n);
+**8. bzeero writes in string 's' 'n' zeroed bytes**
 <br>
-/*copies n bytes from memory area(src) to memory area(dst)*/
-/*If theres overlapping behaviour is undefined*/
+void	ft_bzero(void *s, size_t n);
+
+**9. copies n bytes from memory area(src) to memory area(dst)
+If theres overlapping behaviour is undefined**
+<br>
 void	*ft_memcpy(void *dst, const void *src, size_t n);
 
 /*copies n bytes from memory area(src) to memory area(dst)*/
