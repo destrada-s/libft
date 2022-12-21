@@ -1,6 +1,7 @@
 # libft
 
 /*check for alpha*/
+<br>
 int		ft_isalpha(int c);
 
 /*check for digits*/
