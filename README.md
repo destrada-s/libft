@@ -7,74 +7,66 @@
 **1. int		ft_isalpha(int c);** 
 <br>
 - check for alpha
-
-
+<br>
 **2. int		ft_isdigit(int c);**
 <br>
 - check for digits
-
+<br>
 **3. int		ft_isalnum(int c);**
 <br>
 - check for alphanumeric
-
-
+<br>
 **4. int		ft_isascii(int c);**
 <br>
 - check for 7 bit ascii(0 - 127) not extended
-
-
+<br>
 **5. int		ft_isprint(int c);**
 <br>
 - check for printable chars
-
-
+<br>
 **6. size_t	ft_strlen(const char *s);**
 <br>
 - function computes the length of the string
-
-
+<br>
 **7. void	*ft_memset(void *b, int c, size_t len);**
 <br>
 - writes len bytes of value c(unsigned char) to string b
-
-
+<br>
 **8. void	ft_bzero(void *s, size_t n);**
 <br>
 - bzeero writes in string 's' 'n' zeroed bytes
-
-
+<br>
 **9. void	*ft_memcpy(void *dst, const void *src, size_t n);**
 <br>
 - copies n bytes from memory area(src) to memory area(dst)
 If theres overlapping behaviour is undefined
-
+<br>
 **10. void	*ft_memmove(void *dst, const void *src, size_t len);**
 <br>
 - copies n bytes from memory area(src) to memory area(dst)
 Used when there can be overlapping
-
-**11. size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);**
-- copy string src to dst making sure room in dst */
-
-
-**11. size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);**
-- concatenate string src to dst making sure room in dst
-
-**12. int		ft_toupper(int c);**
-- letter to uppper case
-
-
-**11. **
-/* letter to lower case */
-int		ft_tolower(int c);
 <br>
-**11. **
-/* locate char in string */
-char	*ft_strchr(const char *s, int c);
+**11. size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);**
+<br>
+- copy string src to dst making sure room in dst */
+<br>
+**12. size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);**
+<br>
+- concatenate string src to dst making sure room in dst
+<br>
+**13. int		ft_toupper(int c);**
+- letter to uppper case
+<br>
+**14. int		ft_tolower(int c);**
+- letter to lower case
+<br>
+**15. char	*ft_strchr(const char *s, int c);**
+<br>
+- locate char in string 
+<br>
+**16. char	*ft_strrchr(const char *s, int c);**
+- locate char in string from back to beginning
 
-**11. **
-/* locate char in string from back to beginning */
-char	*ft_strrchr(const char *s, int c);
 <br>
 **11. **
 /* function compares not more than n characters. */
