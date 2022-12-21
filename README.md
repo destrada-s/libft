@@ -1,19 +1,23 @@
 # libft
 
-/* check for alpha */
+**check for alpha **
 <br>
 int		ft_isalpha(int c);
 
-/*check for digits*/
-int		ft_isdigit(int c);
+**check for digits**
 <br>
-/*check for alphanumeric*/
+int		ft_isdigit(int c);
+
+**check for alphanumeric**
+<br>
 int		ft_isalnum(int c);
 
-/*check for 7 bit ascii(0 - 127) not extended */
-int		ft_isascii(int c);
+**check for 7 bit ascii(0 - 127) not extended **
 <br>
-/*check for printable chars*/
+int		ft_isascii(int c);
+
+**check for printable chars**
+<br>
 int		ft_isprint(int c);
 
 /* function computes the length of the string s */
